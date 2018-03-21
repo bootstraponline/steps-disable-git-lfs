@@ -5,8 +5,8 @@ Disable Git LFS by defining a global exclude rule
 ## How to use this Step
 
 ```
-- git::https://github.com/instructure/steps-disable-git-lfs.git@master:
-   title: Disable Git LFS
+    - git::https://github.com/instructure/steps-disable-git-lfs.git@master:
+        title: Disable Git LFS
 ```
 
 The step updates `~/.gitconfig` with the following exclude rule:
